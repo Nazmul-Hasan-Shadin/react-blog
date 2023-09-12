@@ -13,7 +13,7 @@ const Blogs = ({handleAddToCart,readingTimeHandler}) => {
 
     return (
         <div className='md:w-2/3'>
-        <h2> data: {blogs.length} </h2>
+     
 
         {
              blogs.map(blog=> <Blog 
