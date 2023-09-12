@@ -21,7 +21,7 @@ function App() {
 
    <Header></Header>
  
-  <div className=" flex flex-col-reverse md:flex-row md:flex max-w-7xl mx-auto px-10" >
+  <div className=" flex flex-col-reverse md:flex-row md:flex max-w-7xl mx-auto px-10 mt-4" >
   <Blogs handleAddToCart={handleAddToCart}  readingTimeHandler={readingTimeHandler} ></Blogs>
    <Bookmarks bookmarks={bookmarks} readingTime={readingTime}  ></Bookmarks>  
   </div>
